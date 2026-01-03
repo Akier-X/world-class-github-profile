@@ -70,7 +70,7 @@ async function fetchGitHubData(config: Config) {
 }
 
 function generateReadme(config: Config, githubData: any): string {
-  const { totalStars, topLanguages } = githubData;
+  const { topLanguages } = githubData;
 
   return `# Hi there, I'm ${config.personal.name}! 👋
 
