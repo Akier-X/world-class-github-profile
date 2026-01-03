@@ -11,10 +11,6 @@ permissions:
   id-token: write
   actions: read
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   quality-checks:
     runs-on: ubuntu-latest
