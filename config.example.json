@@ -1,0 +1,56 @@
+{
+  "github": {
+    "username": "your-github-username",
+    "token": "ghp_your_github_token_optional"
+  },
+  "personal": {
+    "name": "Your Name",
+    "occupation": "Full Stack Developer",
+    "bio": "Passionate about building world-class products",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "AWS"
+    ],
+    "location": "Tokyo, Japan",
+    "email": "your.email@example.com",
+    "website": "https://yourwebsite.com"
+  },
+  "social": {
+    "twitter": "your_twitter",
+    "linkedin": "your-linkedin",
+    "blog": "https://yourblog.com"
+  },
+  "preferences": {
+    "theme": "dark",
+    "primaryColor": "#3B82F6",
+    "showEmail": false,
+    "showLocation": true,
+    "pinnedRepos": [
+      "repo-name-1",
+      "repo-name-2",
+      "repo-name-3"
+    ],
+    "excludeRepos": [
+      "private-repo",
+      "test-repo"
+    ],
+    "highlightLanguages": [
+      "TypeScript",
+      "Python",
+      "Go"
+    ]
+  },
+  "features": {
+    "readmeGenerator": true,
+    "dashboard": true,
+    "portfolio": true,
+    "aiBranding": true,
+    "realTimeActivity": true,
+    "blogIntegration": true,
+    "3dAnimations": true,
+    "darkMode": true
+  }
+}
