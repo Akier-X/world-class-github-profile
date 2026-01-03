@@ -3,7 +3,6 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { Octokit } from '@octokit/rest';
-import { graphql } from '@octokit/graphql';
 
 interface Config {
   github: {
