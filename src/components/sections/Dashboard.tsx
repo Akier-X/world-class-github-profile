@@ -8,9 +8,15 @@ import { ContributionHeatmap } from '@/components/dashboard/ContributionHeatmap'
 import { LanguageChart } from '@/components/dashboard/LanguageChart';
 import { StatsCards } from '@/components/dashboard/StatsCards';
 
+interface DashboardData {
+  contributions: any;
+  languages: { language: string; count: number }[];
+  events: any[];
+}
+
 export function Dashboard() {
   const [loading, setLoading] = useState(true);
-  const [data, setData] = useState({
+  const [data, setData] = useState<DashboardData>({
     contributions: null,
     languages: [],
     events: [],
