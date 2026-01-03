@@ -66,7 +66,7 @@ export function About() {
             className="glass-dark p-8 rounded-2xl mb-12"
           >
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Hi! I'm <span className="gradient-text font-semibold">{config.personal.name}</span>,
+              Hi! I&apos;m <span className="gradient-text font-semibold">{config.personal.name}</span>,
               a passionate {config.personal.occupation.toLowerCase()} dedicated to building
               world-class products that make a difference.
             </p>
@@ -75,7 +75,7 @@ export function About() {
             </p>
             <p className="text-gray-300 text-lg leading-relaxed">
               I believe in writing clean, maintainable code and creating exceptional user
-              experiences. When I'm not coding, you can find me contributing to open source,
+              experiences. When I&apos;m not coding, you can find me contributing to open source,
               learning new technologies, or sharing knowledge with the developer community.
             </p>
           </motion.div>

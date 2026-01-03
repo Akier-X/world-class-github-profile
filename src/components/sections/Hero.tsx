@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Star, GitFork, Users } from 'lucide-react';
+import { ArrowDown, Github, Star, Users } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { getGitHubClient } from '@/lib/github/client';
 import { getConfig } from '@/config';
@@ -116,7 +116,7 @@ export function Hero() {
             variants={containerVariants}
             className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"
           >
-            {statCards.map((stat, index) => {
+            {statCards.map((stat) => {
               const Icon = stat.icon;
               return (
                 <motion.div

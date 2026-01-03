@@ -35,7 +35,7 @@ export function ContributionHeatmap({ data }: ContributionHeatmapProps) {
         <div className="inline-block min-w-full">
           {/* Month labels */}
           <div className="flex mb-2 text-xs text-gray-400">
-            {monthLabels.map((month, i) => (
+            {monthLabels.map((month) => (
               <div key={month} className="flex-1 text-center">
                 {month}
               </div>

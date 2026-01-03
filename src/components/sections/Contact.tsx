@@ -68,7 +68,7 @@ export function Contact() {
             Get In Touch
           </h2>
           <p className="text-gray-400 text-lg">
-            Let's collaborate on something amazing
+            Let&apos;s collaborate on something amazing
           </p>
         </motion.div>
 
