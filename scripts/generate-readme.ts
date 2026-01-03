@@ -96,7 +96,7 @@ ${config.personal.bio}
 
 ## 💻 Top Technologies
 
-${topLanguages.map(([lang, count]) => `![${lang}](https://img.shields.io/badge/${lang}-${count}_repos-3B82F6?style=for-the-badge&logo=${lang.toLowerCase()}&logoColor=white)`).join('  \n')}
+${topLanguages.map(([lang, count]: [string, number]) => `![${lang}](https://img.shields.io/badge/${lang}-${count}_repos-3B82F6?style=for-the-badge&logo=${lang.toLowerCase()}&logoColor=white)`).join('  \n')}
 
 ---
 
